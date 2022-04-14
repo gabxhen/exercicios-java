@@ -1,0 +1,29 @@
+Atividade Prática 01;
+Aluno: Gabriel Henrique;
+
+
+import java.util.Scanner;
+
+public class atividade1 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in); 
+
+        int ingressoNormal, ingressoEstudante, ingressoAcessivel, publicoTotal;
+
+        System.out.print("Quantos ingressos normais foram vendidos? ");
+        ingressoNormal = input.nextInt(); 
+        
+        System.out.print("Quantos ingressos acessíveis foram vendidos? ");
+        ingressoAcessivel = input.nextInt();
+
+        System.out.print("Quantos ingressos estudantis foram vendidos? ");
+        ingressoEstudante = input.nextInt();
+
+        publicoTotal = ingressoNormal + ingressoEstudante + ingressoAcessivel;
+
+        System.out.printf("A quantidade total de ingressos vendidos foi de:  " + publicoTotal);
+    }
+
+}
