@@ -13,3 +13,5 @@
 - Operadores Aritiméticos;
 
 - If, Else e Else if.
+
+- While e For
